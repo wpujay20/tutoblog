@@ -1,0 +1,18 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+# composer.json por que suele actualzianrce al hacer un update- laravel se actualiza.
+# Esto es para que no haya problemas en el control de versiones
+composer.lock
